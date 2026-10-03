@@ -1,21 +1,135 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>ConceptMaster.org</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConceptMaster.org — Ideas, Knowledge & Resources</title>
+  <meta name="description" content="ConceptMaster.org — a growing collection of useful learning resources, concepts, notes and ideas. The domain is also available for acquisition.">
+  <meta name="theme-color" content="#0b1220">
+  <meta property="og:title" content="ConceptMaster.org">
+  <meta property="og:description" content="Ideas, knowledge and useful resources — built around concepts that matter.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://conceptmaster.org/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top">Concept<span>Master</span><small>.org</small></a>
+    <nav>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+      <a href="#acquire">Acquire</a>
+    </nav>
+    <a class="nav-cta" href="#acquire">Make an Offer</a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
 
-    <h1>ConceptMaster.org</h1>
+<main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">LEARN • EXPLORE • BUILD</div>
+        <h1>Understand the <span>concept.</span> Master the idea.</h1>
+        <p class="hero-copy">ConceptMaster.org is a growing home for useful concepts, original learning resources, practical notes and ideas worth exploring.</p>
+        <div class="actions">
+          <a class="button primary" href="#resources">Explore Resources</a>
+          <a class="button secondary" href="#acquire">Acquire ConceptMaster.org</a>
+        </div>
+        <div class="trust-line"><span>✓ Free to explore</span><span>✓ No subscription</span><span>✓ Built for learners</span></div>
+      </div>
+      <div class="hero-card">
+        <div class="card-glow"></div>
+        <div class="concept-mark">CM</div>
+        <div class="hero-card-label">CONCEPTMASTER.ORG</div>
+        <h2>Ideas become useful when they are understood.</h2>
+        <p>Explore concepts, create your own understanding, and build knowledge that lasts.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>A Premium Digital Identity for Your Next Big Idea</h2>
+  <section class="stats">
+    <div class="container stat-grid">
+      <div><strong>01</strong><span>Simple knowledge</span></div>
+      <div><strong>02</strong><span>Practical resources</span></div>
+      <div><strong>03</strong><span>Original content</span></div>
+      <div><strong>04</strong><span>Open access</span></div>
+    </div>
+  </section>
 
-    <p>
-        ConceptMaster.org is available for acquisition.
-    </p>
+  <section id="resources" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">RESOURCE LIBRARY</div>
+          <h2>Explore by concept</h2>
+        </div>
+        <p>Start small. More original resources can be added over time.</p>
+      </div>
+      <div class="resource-grid">
+        <a class="resource-card" href="resources/programming.html">
+          <div class="icon">01</div><h3>Programming</h3>
+          <p>C, C++, algorithms, data structures and practical programming concepts.</p><span>Explore →</span>
+        </a>
+        <a class="resource-card" href="resources/system-programming.html">
+          <div class="icon">02</div><h3>System Programming</h3>
+          <p>Linux, operating systems, networking, debugging and low-level concepts.</p><span>Explore →</span>
+        </a>
+        <a class="resource-card" href="resources/ai.html">
+          <div class="icon">03</div><h3>AI & Machine Learning</h3>
+          <p>Foundational concepts, experiments, tools and learning resources.</p><span>Explore →</span>
+        </a>
+        <a class="resource-card" href="resources/gate-cse.html">
+          <div class="icon">04</div><h3>GATE CSE</h3>
+          <p>Original summaries, revision material and learning resources.</p><span>Explore →</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <a href="mailto:YOUR_EMAIL@example.com">
-        Make an Offer
-    </a>
+  <section id="about" class="section dark-section">
+    <div class="container two-col">
+      <div>
+        <div class="eyebrow">ABOUT CONCEPTMASTER</div>
+        <h2>A place for ideas that deserve to be understood.</h2>
+      </div>
+      <div class="about-copy">
+        <p>ConceptMaster.org is designed around a simple principle: useful knowledge should be easy to discover and understand.</p>
+        <p>The site can grow gradually — from a small collection of original notes and explanations into a broader resource library.</p>
+      </div>
+    </div>
+  </section>
 
+  <section id="acquire" class="section acquisition">
+    <div class="container acquisition-box">
+      <div>
+        <div class="eyebrow">DOMAIN AVAILABLE</div>
+        <h2>Interested in ConceptMaster.org?</h2>
+        <p>The domain is available for acquisition. If you have a serious project, company or idea in mind, submit an offer.</p>
+        <p class="small">Submitting an offer is an expression of interest and does not create a binding agreement to sell.</p>
+      </div>
+      <form id="offerForm" class="offer-form">
+        <label>Name<input id="name" name="name" required></label>
+        <label>Email<input id="email" name="email" type="email" required></label>
+        <label>Offer Amount<input id="amount" name="amount" placeholder="e.g. ₹1,00,000"></label>
+        <label>Message<textarea id="message" name="message" rows="4" placeholder="Tell me briefly about your project."></textarea></label>
+        <button class="button primary full" type="submit">Submit Offer</button>
+        <p class="form-note">The form opens your email client. No account or subscription is required.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><a class="brand" href="#top">Concept<span>Master</span><small>.org</small></a><p>Ideas • Knowledge • Resources</p></div>
+    <div class="footer-links"><a href="#resources">Resources</a><a href="#about">About</a><a href="#acquire">Acquire</a><a href="mailto:YOUR_EMAIL@example.com">Contact</a></div>
+    <p class="copyright">© 2026 ConceptMaster.org</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
